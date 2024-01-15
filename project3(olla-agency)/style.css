@@ -1,0 +1,989 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #041735;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    padding: .5rem;
+}
+.learn-more-btn{
+    background-color: #ff8f7d;
+    background-image: linear-gradient( 180deg, #ff8f7d 50%, #ffd597 );
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    margin: 0 1rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rgba(128, 128, 128, 0.568); */
+    box-shadow: 0px 0px 5px #8080809c;
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+}
+.nav-links{
+    display: inline-block;
+    color: #041735;
+    text-decoration: none;
+    margin: .5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.quote-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #2845ba;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: .8rem 2rem;
+    border-radius: 5px;
+    margin: .5rem 1rem;
+}   
+.logo{
+    margin: 0 1.5rem;
+    font-size: 50px;
+    color: #2845ba;
+    font-family: 'Outfit', sans-serif;
+}
+/* ---------------------------------------- */
+.man-working-image{
+    width: 75vw;
+}
+.enter-email-section{
+    padding: 5rem;
+}
+.man-working-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 5rem; */
+}
+.business-solution-txt{
+    margin: 0;
+    color: #2845ba;
+    background-color: #b3c2ff57;
+    display: inline-block;
+    padding: .4rem .5rem;
+    border-radius: 3px;
+    font-family: 'Cabin', sans-serif;
+    font-size: .9rem;
+}
+.build-website-head{
+    font-family: 'Cabin', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #041735;
+    margin: 1rem 0;
+    line-height: 3.9rem;
+}
+.enter-email-subtext{
+    font-family: 'Open Sans', sans-serif;
+    color: #041735;
+    font-size: 1.2rem;
+
+}
+.get-free-quote-btn{
+    padding: 1.3rem 1rem;
+    margin: 0;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.email-input-btn{
+    display: flex;
+    margin-top: 2rem;
+}
+.mail-in{
+    border: 1px solid #2a47b9b0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    font-size: 1rem;
+    padding: 0 6rem 0 1.5rem;
+    outline: none;
+}
+.dot-pattern{
+    position: relative;
+    top: -4.5rem;
+    right: -2.5rem;
+    width: 10rem;
+    height: 4rem;
+}
+.dot-pattern img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+/* --------------------------------------- */
+.section2{
+    text-align: center;
+}
+.olla-help-heading{
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+    color: #041735;
+}
+.olla-help-heading-subtext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(63, 63, 63);
+    margin-top: 0;
+}
+.olla-features-cards{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.feature1{
+    margin: .8rem;
+    width: 18rem;
+    background-color: #f0f3ff;
+    padding: 2.5rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.feature2{
+    background-color: #fff3f2;
+}
+.feature3{
+    background-color: #e9fffd;
+}
+.feature-txt{
+
+}
+.feature-head{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    color: #041735;
+}
+.feature-icons{
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 0 2rem;
+}
+
+/* --------------------------------------- */
+.section3{
+    display: flex;
+    padding: 5rem 7rem;
+}
+.man-women-working-image{
+    height: 30rem;
+    width: 35rem;
+    margin-right: 8rem;
+}
+.man-women-working-image img{
+    height: 100%;
+    border-radius: 4px;
+    width: 100%;
+    object-fit: cover;
+}
+.expected-features{
+    width: 23.5rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377) ;
+}
+.expected-features-text{
+    /* margin-left: 7rem; */
+    /* padding: 2rem 6rem; */
+}
+.expected-feature-head{
+    width: 15rem;
+    line-height: 2.8rem;
+    margin: 2rem 0;
+
+}
+.expect-feature-subhead{
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+    color: #041735;
+    font-size: 1.1rem;
+}
+.expected-feature-subtext{
+    font-size: .95rem;
+}
+.no-border{
+    border: 0;
+}
+
+/* --------------------------------------- */
+.section4{
+    background-color: #041735;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem 5rem;
+}
+.good-company-head{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    margin: 1rem 0;
+}
+.good-company-subtext{
+    color: white;
+    margin: 1rem auto;
+    width: 47rem;
+}
+.meet-customers-btn{
+    padding: 1rem;
+    border-radius: 3px;
+}
+/* --------------------------------------- */
+.section5{
+    display: flex;
+    align-items: center;
+    padding: 7rem 6rem;
+}
+.work-fast{
+    width: 35vw;
+    padding-right: 8rem;
+}
+.tagline-head{
+    width: 18rem;
+}
+.questions{
+    padding: 1.2rem 2rem;
+    
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    border-radius: 3px;
+}
+.man-working-sec5{
+    margin: 0;
+    width: 38rem;
+}
+
+/* --------------------------------------- */
+
+.section6{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f2f6;
+    padding: 5rem;
+}
+.yearly-monthly-btns{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.prices{
+    padding: 3rem;
+    background-color: white;
+    border-radius: 4px;
+    width: 22rem;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.price-dollar{
+    display: flex;
+    justify-content: center;
+}
+.free-trial{
+    display: flex;
+    justify-content: center;
+    font-size: .9rem;
+    color: rgb(83, 83, 83);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.website-prices-part{
+    padding-right: 8rem;
+}
+.website-price-head{
+    width: 28rem;
+}
+.website-price-subtext{
+    width: 30rem;
+    margin: 1rem 0 1.5rem;
+    line-height: 1.6rem;
+}
+li::marker{
+    color: #4aa8c6;
+}
+
+.identity-txt{
+    margin-left: -2rem;
+    padding-right: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);    
+}
+.identity-txt::before{
+
+}
+
+.dollar-sign{
+    font-size: 1rem;
+    position: relative;
+    top: -1rem;
+}
+.price-amt{
+    color: #041735;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 0;
+}
+.month{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #041735c2;
+}
+.yearly-btn{
+    background-color: #4aa8c6;
+    color: white;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    font-family: 'Cabin', sans-serif;
+    
+    padding: .8rem 1rem;
+}
+.monthly-btn{
+    background-color: #78ddff56;
+    color: #4aa8c6;
+    border-radius: 0px 3px 3px 0px;
+
+}
+.dollar-sign, .month, .price-amt{
+
+}
+.free-trial ul{
+    padding-left: 1.5rem;
+
+}
+
+.free-trial-info{
+    padding: 0;
+}
+.price-amt-subtext{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+/* --------------------------------------- */
+.message-box{
+
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 12px solid #f0f3ff;
+    position: relative;
+    left: 22px;
+}
+.bob-message{
+    margin-bottom: 0;
+    background-color: #f0f3ff;
+    padding: 2rem;
+    padding-right: 4rem;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 1rem;
+    width: 21rem;
+    color: #041735;
+    font-weight: 400;
+}
+.bob-name{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+.great-website-head-subtext{
+    margin: 1rem 0 2.5rem ;
+    padding-right: 4rem;
+}
+.ceo-info{
+    padding-left: 1rem;
+}
+.ceo-at-colorin-txt{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    color: rgb(100, 100, 100);
+    margin-top: .5rem;
+}
+.section7{
+    display: flex;
+    padding: 5rem 6rem;
+}
+.section7-image{
+    width: 43rem;
+}
+
+
+/* --------------------------------------- */
+.section8{
+    text-align: center;
+    padding: 0 2rem 2rem;
+}
+.projects-done-subtext{
+    margin: 1rem 0;
+}
+.project-img{
+    width: 23rem;
+    height: 22rem;
+    margin: .8rem;
+}
+.project-done-images{
+    display: flex;
+    justify-content: center;
+}
+.project-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------- */
+footer{
+    background-color: #041735;
+    color: white;
+    padding: 3rem 5rem 5rem;
+}
+.amazing-website-head{
+    
+}
+.creating-website-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.089);
+}
+.amazing-website-subtext{
+    text-align: left;
+    margin: 1rem 0;
+}
+.free-trial-btn{
+    border-radius: 3px;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    color: white;
+    font-size: 2.5rem;
+}
+.quick-links-head{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+.links-of-footer{
+    color: white;
+    text-decoration: none;
+    margin: .5rem 0;
+    font-size: .9rem;
+}
+.quick-links{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3.5rem;
+}
+.footer-links{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+}
+.links-newsletter{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.089);
+
+}
+.send-btn{
+    margin: 0;
+    padding: 1rem 1.5rem;
+}
+.newsletter-input-btn{
+    display: flex;
+}
+.newsletterIn{
+    font-size: .9rem;
+    padding: 1rem;
+    padding-right: 7rem;
+    border: none;
+    /* border-radius: 4px; */
+}
+.subscribe-txt{
+    margin-top: 1.5rem;
+    color: white;
+    font-size: .9rem;
+}
+.icons{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem;
+}
+.icons img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social-icons{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+.links-all{
+    display: flex;
+}
+/* --------------------------------------- */
+@media (max-width: 1200px){
+    .dot-pattern img{
+        height: 9rem;
+    }  
+    .work-fast{
+        padding-right: 6rem;
+    } 
+    .man-women-working-image{
+        margin-right: 5rem;
+    }
+}
+@media (max-width: 992px){
+    .quote-btn{
+        padding: .6rem 1.5rem;
+    }
+    .nav-links, .quote-btn{
+        font-size: .9rem;
+    }
+    header p, .learn-more-btn{
+        font-size: .8rem;
+    }
+    .section1{
+        flex-wrap: wrap;
+    }
+    .enter-email-section{
+        order: 2;
+    }
+    .man-working-image{
+        order: 1;
+        flex-grow: 2;
+        height: 90vh;
+    }
+    .build-website-head{
+        font-size: 3rem;
+    }
+    .enter-email-subtext{
+        font-size: 1rem;
+    }
+    .mail-in{
+        padding: 0 5rem 0 1.5rem  ;
+    }
+    .get-free-quote-btn{
+        padding: 1rem;
+    }
+    .dot-pattern img{
+        height: 7rem;
+    }   
+    .dot-pattern{
+        top: -3rem;
+        width: 8rem;
+    }
+    .olla-features-cards{
+        flex-wrap: wrap;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .man-women-working-image{
+        margin: 0;
+        width: 100%;
+    }
+    .olla-help-heading{
+        font-size: 2rem;
+    }
+    .expected-features{
+        width: 100%;
+    }
+    .expected-feature-head{
+        width: 100%;
+    }
+    .good-company-subtext{
+        width: 100%;
+    }
+    .section5{
+        flex-wrap: wrap;
+    }
+    .man-working-sec5{
+        width: 100%;
+        order: 1;
+    }
+    .tagline-head{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .work-fast{
+        order: 2;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .questions{
+        text-align: left;
+    }
+    .section6{
+        flex-wrap: wrap;
+    }
+    .prices{
+        margin: 2rem 0;
+    }
+    .website-prices-part{
+        padding-right: 0;
+    }
+    .website-price-head, .website-price-subtext, .prices{
+        width: 100%;
+    }
+    .section7{
+        justify-content: center;
+    }
+    .project-done-images{
+        flex-wrap: wrap;
+    }
+    .links-newsletter{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .newsletter{
+        margin-top: 2rem;
+    }
+    .creating-website-main{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 767px){
+    .quote-btn{
+        padding: .5rem 1.2rem;
+    }
+    .nav-links, .quote-btn, .get-free-quote-btn, .mail-in{
+        font-size: .8rem;
+    }
+    header p, .learn-more-btn{
+        font-size: .7rem;
+    }
+    .nav-links{
+        margin: .4rem .5rem;
+    }
+    .navbar-links{
+        flex-wrap: wrap;
+    }
+    .enter-email-section{
+        padding: 2rem;
+    }
+    .man-working-image{
+        height: 80vh;
+    }
+    .build-website-head{
+        font-size: 2.5rem
+    }
+    .get-free-quote-btn{
+        padding: 1rem;
+    }
+    .email-input-btn{
+        margin-top: 1.5rem;
+    }
+    .dot-pattern{
+        top: -1rem;
+        left: 1.5rem;
+        width: 6rem;
+    }
+    .dot-pattern img{
+        height: 6rem;
+    }
+    .olla-help-heading{
+        font-size: 1.8rem;
+    }
+    .olla-help-heading-subtext{
+        font-size: .9rem;
+    }
+    .section3{
+        padding: 4rem 5rem;
+    }
+    .section4{
+        padding: 2rem 1.5rem 3rem;
+    }
+    .section5{
+        padding: 4rem;
+    }
+    .expect-feature-subhead{
+        font-size: .9rem;
+    }
+    .price-amt-subtext, .month{
+        font-size: .9rem;
+    }
+    .questions{
+        padding: .8rem;  
+    }
+    .free-trial-info{
+        font-size: .7rem;
+    }
+    .price-amt{
+        font-size: 1.8rem;
+    }
+    .bob-message{
+        width: 80%;
+    }
+    .ceo-at-colorin-txt, .subscribe-txt{
+        font-size: .8rem;
+    }
+    .project-img{
+        width: 21rem;
+        height: 20rem;
+    }
+    .footer-links{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .quick-links-head{
+        font-size: .9rem;
+    }
+    .links-of-footer{
+        font-size: .8rem;
+    }
+    .social-icons{
+        justify-content: center;
+    }
+    .quick-links{
+        margin: 0 2rem;
+    }
+    footer{
+        padding: 3rem 4rem;
+    }
+    .newsletter-input-btn{
+        width: 100%;
+    }
+    .links-newsletter{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    
+}
+@media (max-width: 576px){
+    header{
+        padding: 0 .5rem;
+    }
+    header p{
+        margin: .3rem 0;
+    }
+    nav{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .learn-more-btn{
+        width: 8rem;
+        text-align: center;
+    }
+    .quote-btn, .business-solution-txt, .get-free-quote-btn, .olla-help-heading-subtext, .links-of-footer{
+        font-size: .7rem;
+    }
+    .man-working-image{
+        height: 20rem;
+    }
+    .build-website-head{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .quote-btn{
+        width: 100%;
+    }
+    .get-free-quote-btn{
+        padding: 1rem .5rem;
+    }
+    .enter-email-subtext{
+        font-size: .8rem;
+    }
+    .enter-email-section{
+        padding: 1.5rem;    
+    }
+    .section1{
+        justify-content: center;
+    }
+    .email-input-btn{
+        flex-wrap: wrap;
+    } 
+    .get-free-quote-btn{
+        margin: .5rem 0;
+        border-radius: 3px;
+    }   
+    .mail-in{
+        padding: 1rem;
+        width: 100%;
+    }
+    .dot-pattern{
+        top: -1rem;
+        left: 1.5rem;
+        width: 4rem;
+    }
+    .dot-pattern img{
+        height: 100%;
+    }
+    .olla-help-heading{
+        font-size: 1.7rem;
+        margin: 0;
+    }
+
+    .olla-help-heading-subtext{
+        margin: .5rem 0;
+    }
+    .man-women-working-image{
+        height: 22rem;
+    }
+    .meet-customers-btn{
+        margin: 0;
+        margin-top: 1rem;
+
+    }
+    .section5, .section3, .section6{
+        padding: 3rem;
+    }
+    .section3{
+        justify-content: center;
+    }
+    .section4{
+        padding: 1.5rem 1.5rem 2rem;
+    }
+    .tagline-head{
+        margin-top: 2rem;
+    }
+    .prices{
+        padding: 2rem;
+    }
+    .yearly-btn{
+        width: 100%;
+    }
+    .great-website-head{
+        margin: 1rem 0;
+    }
+    .bob-message{
+        padding: 1rem;
+        margin: 0;
+    }
+    .triangle-down{
+        
+    }
+    .great-website-head-subtext{
+        margin-bottom: 1rem;
+        padding: 0;
+    }
+    .section8{
+        padding: 0 1rem 1.5rem;
+    }
+    .expected-feature-head{
+        margin-top: 1rem;
+    }
+    .newsletter-input-btn{
+        flex-wrap: wrap;
+        
+    }
+    .send-btn, .newsletterIn{
+        border-radius: 3px;
+        width: 100%;
+    }
+    .send-btn, .newsletterIn{
+        padding: .6rem;
+    }
+    .social-icons{
+        margin-top: 1.5rem;
+    }
+    .links-all, .newsletter{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 409px){
+    .email-input-btn{
+        justify-content: center;
+    }
+    .mail-in{
+        width: 100%;
+        padding: .8rem;
+    }
+    .get-free-quote-btn{
+        padding: .8rem;
+        margin: .5rem 0;
+        border-radius: 3px;
+        width: 100%;
+    }
+    .dot-pattern{
+        top: -1.5rem;
+        left: 1.5rem;
+        width: 4rem;
+    }
+    .dot-pattern img{
+        height: 100%;
+    }
+    .build-website-head{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .olla-help-heading{
+        font-size: 1.5rem;
+    }
+    .feature1{
+        width: 14rem;
+        padding: 1.5rem;
+    }
+    .feature-head, .expect-feature-subhead{
+        font-size: 1rem;
+    }
+    .feature-icons{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 1rem 0 1rem ;
+    }
+    .expected-features{
+        width: 100%;
+    }
+    .section3{
+        padding: 3rem 2rem;
+    }
+    .expect-feature-subhead{
+        font-size: .8rem;
+    }
+    .section3, .section5, .section6, footer{
+        padding: 2rem;
+    }
+    .dollar-sign{
+        font-size: .8rem;
+    }
+    .yearly-btn{
+        padding: .5rem;
+    }
+    .website-price-subtext{
+        line-height: 1.3rem;
+    }
+    .ceo-at-colorin-txt{
+        font-size: .7rem;
+        margin-top: .3rem;
+    }
+    .project-img{
+        height: 16rem;
+    }
+    .send-btn{
+        padding: .6rem;
+    }
+    .links-newsletter{
+        padding: 1rem 0;
+    }
+
+}
+

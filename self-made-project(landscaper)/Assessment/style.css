@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    /* line-height: 1.6rem; */
+}
+p{
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    color: rgb(192, 192, 192);
+    background-color: rgb(42, 42, 42);  
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h3{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+nav{
+    display: flex;
+    margin-right: 5rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.nav-bar-btns{
+    color: rgb(192, 192, 192);
+    margin: 2.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.section1{
+    background-image: url('./images/intro-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 45rem;
+    flex-wrap: wrap;
+}
+.section1::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.section1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.section1 h1{
+    z-index: 1;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: .9rem;
+}
+.section1 p{
+    z-index: 1;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.more-info-btn, .view-services-btn{
+    z-index: 1;
+    font-size: 1rem;
+    background-color: #69AD31;
+    height: 3rem;
+    width: 8.5rem;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+/* ------------------------------------------------------ */
+.section2{
+    color: #2a2a2a;
+    display: flex;
+    padding: 7rem;
+    background-color: whitesmoke;
+    text-align: justify;
+}
+.welcome-info{
+    width: 37rem;
+    margin-right: 3rem;
+}
+.garden-care{
+    margin-right: 2rem;
+}
+.garden-care, .lawn-care{
+    width: 20rem;
+    margin-top: 2rem;
+}
+.welcome-info h2{
+    position: relative;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+}
+.welcome-info h2 ::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #69AD31;
+    width: 15%;
+}
+#green-txt{
+    color: #69AD31;
+}
+.view-services-btn{
+    width: 15rem;
+    border: none;
+}
+.section2 h4{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.garden-care-img, .lawn-care-img{
+    width: 100%;
+    height: 15rem;
+}
+.landscaper-care{
+    width: 100%;
+    height: 100%;
+}
+/* ---------------------------------------------------- */
+.section3{
+    background-color: #69AD31;
+    text-align: center;
+    padding: 5rem;
+    color: white;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem ;
+}
+.our-services-head{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.our-services-head::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    width: 4%;
+    z-index: 1;
+    border-bottom: 2px solid #8cd353;
+}
+.our-services-txt{
+    font-size: 1rem;
+}
+.services-provided{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14rem;
+}
+.services-text{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.services-images{
+    width: 13rem;
+    height: 13rem;
+}
+.service-image{
+    border-radius: 50%;
+    border: 10px solid #80cc42af;
+    width: 90.5%;
+    height: 90.5%;
+    object-fit: cover;
+}
+.services-head{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.services-txt{
+
+}
+/* ------------------------------------------------------- */
+.section4{
+    text-align: center;
+    padding: 5rem;
+    background-color: whitesmoke;
+}
+.project-gallery-head{
+    color: #2a2a2a;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.project-gallery-head::before{
+    border-bottom: 3px solid #69AD31;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 48%;
+    width: 4%;
+    z-index: 1;
+
+}
+.project-gallery-txt{
+    margin-bottom: 1.5rem;
+    color: #5c5c5c;
+}
+.gallery-btns{
+    display: flex;
+    justify-content: center;
+}
+.gall-btn{
+    max-width: fit-content;
+    border: none;
+    background-color: rgb(228, 228, 228);
+    margin: .6rem;
+    color: rgb(92, 92, 92);
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+}
+.gall-btn:hover{
+    background-color: #69AD31;
+    color: white;
+}
+.all-btn{
+    background-color: #69AD31;
+    color: white;
+}
+.project-all-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.proj-gallery{
+    height: 15rem;
+    width: 22rem;
+    margin: .6rem;
+}
+.images1, .images2, .images3{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------- */
+.section5{
+    background-image: url('./images/testimonials-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    padding: 5rem 8rem;
+    text-align: center;
+}
+.section5::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #69ad31cc;
+}
+.testimonials-head{
+    position: relative;
+    margin-bottom: 4rem;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.testimonials-head::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    left: 47%;
+    border-bottom: 2px solid #c5ff95;
+    bottom: 0;
+}
+.testimonials-txt{
+
+    /* width: 30rem; */
+    /* text-align: center; */
+}
+.section5 p{
+    position: relative;
+    z-index: 1;
+    line-height: 27px;
+}
+.circles{
+    position: relative;
+    z-index: 1;
+}
+/* ------------------------------------------------------- */
+.section6{
+    padding: 4rem;
+    text-align: center;
+    color: #2a2a2a;
+    background-color: whitesmoke;
+}
+.contact-us-head{
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.contact-us-head::before{
+    content: '';
+    bottom: 0;
+    height: 100%;
+    width: 4%;
+    left: 48%;
+    border-bottom: 2px solid #69AD31;
+    position: absolute;
+}
+.contact-infos{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.4rem;
+}
+.address{
+    text-align: center;
+}
+.address-head, .contact-head, .working-hours-head{
+    font-weight: 600;
+    padding-bottom: .5rem;
+    position: relative;
+    /* margin: auto 8rem; */
+}
+.address-head{
+    
+}
+.contact-head{
+
+}
+.working-hours-head{
+    /* margin-right: 15rem;
+    margin-left: 15rem; */
+}
+.address-head::before, .contact-head::before, .working-hours-head::before{
+    content: '';
+    bottom: 0;
+    height: 100%;
+    width: 3rem;
+    left: 34.5%;
+    border-bottom: 2px solid #69ad31a2;
+    position: absolute;
+}
+.contact-head::before{
+    left: 37%;
+}
+.working-hours-head::before{
+    left: 40%;
+}
+/* ------------------------------------------------------- */
+.inputs{
+    display: flex;
+}
+.name-email{
+    color: #5c5c5c;
+    border: 1px solid #5c5c5c2c;
+    padding: .4rem;
+    padding-right: 3rem;
+    padding-left: .8rem;
+}
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2a2a2a;
+    width: 29.9rem;
+    margin: auto;
+}
+.textarea-msg{
+    height: 5rem;
+    width: 29.3rem;
+    margin-top: 1rem;
+    padding: 0;
+    padding-left: .5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.name{
+    margin-right: 1rem;
+}
+
+
+/* ------------------------------------------------------- */
+footer{
+    background-color: #363636;
+    padding: 2rem 2rem 1rem;
+    text-align: center;
+}
+.footer-txt{
+    color: #616161;
+    font-size: .8rem;
+}
+.templateWire-txt{
+    color: #818181;
+}
+.icons{
+    margin: 0 1rem .5rem;
+}
+
+
+/* ------------------------------------------------------- */
+@media (max-width: 1200px){
+    .nav-bar-btns{
+        font-size: 1rem;
+    }   
+    header h3{
+        font-size: 1.5rem
+    }
+    .section1{
+        height: 45rem;
+    }
+    .section1 h1{
+        font-size: 4rem;
+    }
+    .section1 p{
+        font-size: 1.2rem;
+    }
+    .welcome-info h2{
+        font-size: 2.4rem;
+    }
+    .section2 h4{
+        font-size: 28px;
+    }
+    .view-services-btn, .more-info-btn{
+        font-size: 1rem;
+        width: 15rem;
+    }
+    .more-info-btn{
+        width: 8.5rem;
+    }
+}
+@media (max-width: 1150px){
+    .section2, .services{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 992px){
+    .nav-bar-btns{
+        font-size: .9rem;
+        margin: 1.5rem 1rem;
+    }   
+    header h3{
+        font-size: 1.4rem;
+    }
+    .section1{
+        height: 40rem;
+    }
+    .section1 h1{
+        font-size: 3.5rem;
+    }
+    .section1 p{
+        font-size: 1.1rem;
+    }
+    .welcome-info{
+        margin-right: 0;
+    }
+    .welcome-info h2{
+        font-size: 2.2rem;
+    }
+    .section2{
+        justify-content: center;
+    }
+    .section2 h4{
+        font-size: 25px;
+    }
+    .view-services-btn, .more-info-btn{
+        font-size: .9rem;
+        width: 13rem;
+        height: 2.5rem;
+    }
+    .more-info-btn{
+        width: 8rem;
+    }
+    .garden-care, .lawn-care{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .garden-care{
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 767px){
+    .nav-bar-btns{
+        font-size: .8rem;
+    } 
+    header{
+        justify-content: center;
+    }  
+    nav{
+        margin: 0;
+    }
+    header h3{
+        font-size: 1.3rem;
+        margin: 1rem 2rem;
+    }
+    .section1{
+        height: 35rem;
+    }
+    .section1 h1{
+        font-size: 3rem;
+    }
+    .section1 p{
+        font-size: 1rem;
+    }
+    .nav-bar-btns{
+        margin: 1rem .8rem ;
+    }
+    .welcome-info h2{
+        font-size: 2rem;
+    }
+    .section2 h4{
+        font-size: 22px;
+    }
+    p{
+        font-size: 12px;               
+    }
+    .view-services-btn, .more-info-btn{
+        font-size: .8rem;
+        width: 11rem;
+    }
+    .garden-care{
+        margin-right: 0;
+    }
+    .more-info-btn{
+        width: 7.5rem;
+    }
+    .our-services-head{
+        font-size: 1.5rem;
+    }
+    .our-services-txt{
+        font-size: 1rem;
+    }
+    .services{
+        margin-top: 4rem;
+    }
+    .section3{
+        padding: 2.5rem;
+    }
+    .services-head{
+        font-size: 1.2rem;
+    }
+    .section4{
+        padding: 3rem;
+    }
+    .gallery-btns{
+        flex-wrap: wrap;
+    }
+    .gall-btn{
+        font-size: .8rem;
+    }
+    .proj-gallery{
+        height: 12rem;
+        width: 19rem;
+        margin: .6rem;
+    }
+    .section5{
+        padding: 3rem 6rem;
+    }
+    .testimonials-head{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .contact-us-head{
+        font-size: 1.5rem;
+    }
+    .section5 p{
+        font-size: .8rem;
+    }
+    .contact-infos{
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .section6{
+        padding: 2.5rem;
+    }
+    .name-email{
+        margin: .5rem;
+        flex-grow: 1;
+    }
+    .inputs{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .textarea-msg{
+        
+    }
+}
+@media (max-width: 576px){
+    .nav-bar-btns{
+        font-size: .7rem;
+        margin: .8rem .5rem;
+    } 
+    nav{
+        justify-content: center;
+        margin: 0;
+    }
+    header{
+        justify-content: center;
+    }  
+    header h3{
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    .section1{
+        height: 30rem;
+    }
+    .section1 h1{
+        font-size: 1.8rem;
+    }
+    .section1 p{
+        font-size: .7rem;
+    }
+    .section2{
+        padding: 3rem;
+    }
+    .welcome-info h2{
+        font-size: 1.5rem;
+    }
+    .section2 h4{
+        font-size: 19px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .view-services-btn, .more-info-btn{
+        font-size: .6rem;
+        width: 10rem;
+        height: 2rem;
+    }
+    .more-info-btn{
+        width: 6.5rem;
+    }
+    .garden-care-img, .lawn-care-img{
+        height: 12rem;
+    }
+    .section3{
+        padding: 1.5rem;
+    }
+    .services{
+        margin-top: 3rem;
+    }
+    .services-provided{
+        margin-top: 1rem;
+    }
+    .section4{
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .our-services-head, .project-gallery-head, .contact-us-head{
+        font-size: 1.3rem;
+    }
+    .our-services-txt{
+        font-size: .8rem;
+    }
+    .services-head{
+        font-size: 1rem;
+    }
+    .gall-btn{
+        font-size: .6rem;
+        margin: .3rem;
+    }
+    .proj-gallery{
+        height: 10rem;
+        width: 16rem;
+        margin: .6rem;
+    }
+    .section5{
+        padding: 1rem 3rem;
+    }
+    .testimonials-head{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .section5 p, .name-email, .textarea-msg{
+        font-size: .6rem;
+    }
+    .section6{
+        padding: 1.5rem;
+    }
+    .contact-infos{
+        margin-top: 1rem;
+    }
+    .feedback-form{
+        width: 20rem;
+    }
+    .inputs{
+        flex-wrap: wrap;
+    }
+    .textarea-msg{
+        width: 18.5rem;
+    }
+    footer{
+        padding: 1rem .5rem;
+    }
+    .icons{
+        margin: 0 .5rem 0;
+    }
+    .footer-txt{
+        font-size: .6rem;
+    }
+}
+@media (max-width: 370px){
+    .feedback-form{
+        width: 13rem;
+    }
+    .name-email{
+        width: 10rem;
+        padding-right: 2rem;
+    }
+    .textarea-msg{
+        width: 10.3rem;
+    }
+}

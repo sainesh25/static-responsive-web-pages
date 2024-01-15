@@ -1,0 +1,1008 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA;
+    padding: 1rem;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+.location p, .location h5{
+    margin: 0;
+}
+.header-icons{
+    width: 2rem;
+    height: 2rem;
+    margin-right: .5rem;
+}
+.logo{
+    height: 5rem;
+    width: 5rem;
+    margin-right: 8rem;
+}
+.phone-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.icon-subtext{
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+.icon-text{
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav{
+    background-color: #0F84F6;
+    padding: .6rem 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+.nav-links{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem 1.5rem;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* ------------------------------------------------- */
+.section1{
+    background-image: url('./boat-bg-img.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.section1::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.ad-heading{
+    position: relative;
+    z-index: 1;
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 400;
+}
+.ad-subtext{
+    position: relative;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    width: 40rem;
+    text-align: center;
+    font-weight: 300;
+}
+.read-more-btn, .learn-more-btn{
+    position: relative;
+    z-index: 1;
+    padding: 1rem 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: #0F84F6;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+}
+
+/* ------------------------------------------------ */
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem;
+}
+.learn-more-btn{
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+.boat-img{
+    width: 31rem;
+    height: 20rem;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+.about-us{
+    width: 28rem;
+}
+.about-us-text{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #0F84F6;
+}
+.welcome-txt{
+    margin-top: 0;
+    font-weight: 400;
+    padding-bottom: 1.7rem;
+    position: relative;
+}
+.welcome-txt::before{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    border-bottom: 2px solid #0F84F6;
+}
+.about-us-subtext{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    line-height: 25px;
+    color: gray;
+    font-weight: 300;
+    margin-top: 1.7rem;
+}
+/* --------------------------------------------- */
+.section3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.luxury-yacht{
+    width: 20rem;
+}
+.luxury-yacht h3{
+    font-weight: 500;
+}
+.luxury-yacht p{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    line-height: 25px;
+}
+/* --------------------------------------------- */
+
+.section4{
+    background-image: url('./summer-morning.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 3.5rem 0;
+    justify-content: center;
+    position: relative;
+    margin:  0;
+    color: white;
+}
+.section4::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #0f83f6a8;
+}
+.assets h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.assets{
+    position: relative;
+    z-index: 1;
+    margin: 0 1.5rem;
+    text-align: center;
+}
+.assets p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+/* --------------------------------------------- */
+.section5{
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 3rem 0;
+}
+.our-destination-head{
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+.our-destination-head::before{
+    content: '';
+    position: absolute;
+    left: 48vw;
+    width: 3%;
+    height: 100%;
+    border-bottom: 2px solid #0F84F6;
+}
+.destinations-images{
+    margin: 4rem 0;
+}
+.destination-info{
+    padding: 1rem;
+    text-align: left;
+}
+.dest-image-1{
+    display: flex;
+    justify-content: center;
+}
+.destination-name{
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.price{
+    font-family: 'Poppins', sans-serif;
+    height: 2rem;
+    background-color: #0F84F6;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    padding: 0 .5rem;
+    font-weight: 300;
+}
+.location-pin-icon{
+    margin-right: .5rem;
+}
+.date{
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    margin: 0;
+}
+.date-price{
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    width: 19rem;
+    margin: .8rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.164);
+}
+.boat-image-1{
+    width: 100%;
+    height: 13rem;
+}
+
+.boat-image-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ------------------------------------------------ */
+
+.section6{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+.form-contents{
+    display: flex;
+}
+.form-section{
+    margin-left: 1.5rem;
+}
+.form-divs{
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.form1{
+    display: flex;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+.form-decoration{
+    margin-left: 0;
+}
+.book-now-btn{
+    padding: 1rem 3rem;
+}
+.inputs, .inputs2, select, textarea{
+    padding: .5rem 0;
+    margin-top: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 3px;
+}
+.inputs2, textarea{
+    width: 100%;
+}
+textarea{
+    height: 7rem;
+}
+select{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding-left: 1rem;
+    color: darkslategrey;
+}
+.book-yacht-head{
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.book-yacht-head::before{
+    content: '';
+    left: 0;
+    width: 14%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 2px solid #0F84F6;
+}
+.form-divs{
+    margin: 2.5rem 0 1rem;
+}
+.form-image{
+    width: 35rem;
+    height: 25rem;
+}
+.form-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ----------------------------------------------- */
+.section7{
+    text-align: center;
+}
+.team-members-info{
+    width: 15rem;
+    margin: 1rem;
+}
+.members{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+.social-icon{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: white;
+    border: none;
+    margin: .3rem .6rem;
+}
+.linkedin{
+    margin-bottom: 1rem;
+}
+.our-team-head{
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    padding-bottom: 1.7rem;
+}
+.our-team-head::before{
+    content: '';
+    width: 3.5%;
+    left: 47.7vw;
+    height: 100%;
+    position: absolute;
+    border-bottom: 2px solid #0F84F6;
+}
+.headshot1, .headshot2, .headshot3, .headshot4{
+    width: 100%;
+    height: 19rem;
+    background-image: url('./headshots/headshot-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.headshot2{
+    background-image: url('./headshots/headshot-2.jpeg');
+}
+.headshot3{
+    background-image: url('./headshots/headshot-3.webp');
+}
+.headshot4{
+    background-image: url('./headshots/headshot-4.jpeg');
+}
+.member-name{
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.member-profession{
+    font-family: 'Poppins', sans-serif;
+    color: #0F84F6;
+    margin: 0;
+}
+.member-info{
+    width: 100%;
+
+}
+/* ----------------------------------------------------- */
+.section8{
+    padding: 5rem 0 3rem;
+    text-align: center;
+}
+.feedbacks{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+.customer-question{
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.customer-question::before{
+    content: '';
+    width: 4%;
+    top: 0;
+    left: 47vw;
+    height: 100%;
+    position: absolute;
+    border-bottom: 2px solid #0F84F6;
+}
+.cust-info{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.cust-profession-name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+    
+}
+.feedback-section{
+    display: flex;
+    flex-direction: column;
+    margin: .8rem;
+}
+.cust-image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.cust-image img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.feedback-text{
+    font-style: italic;
+    width: 18rem;
+    text-align: left;
+    padding: 1.5rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-size: .9rem;
+    line-height: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 5px;
+}
+.cust-name{
+    margin: 0;
+    font-size: .9rem;
+}
+.cust-prof{
+    margin: 0;
+    color: grey;
+    font-size: .8rem;
+}
+/* ----------------------------------------- */
+.section9{
+    background-image: url('./boat-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4.5rem 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.section9::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0F84F6;
+    background-color: #0f83f6a8;
+}
+.contact-us-head{
+    position: relative;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.contact-us-txt{
+    position: relative;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+.contact-us-btn{
+    background-color: #FFA139;
+}
+
+/* ----------------------------------------- */
+footer{
+    background-color: #F8F9FA;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+.water-boat-info{
+    font-family: 'Inter', sans-serif;
+    width: 15rem;
+    color: grey;
+    /* margin: 0; */
+}
+.footer-image{
+    width: 5rem;
+    height: 5rem;
+
+}
+.footer-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.water-boat-info p{
+    line-height: 25px;
+    font-size: .9rem;
+}
+.learn-more-link{
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #0F84F6;
+    font-weight: 300;
+    font-size: .9rem;
+}
+.company-contact{
+    padding-bottom: .1rem;
+    position: relative;
+    font-weight: 400;
+}
+.company-contact::before, .services-head::before, .contact-head-footer::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-bottom: 2px solid #0F84F6;
+}
+.services-head::before{
+    width: 100%;
+}
+.contact-head-footer::before{
+    width: 42%;
+}
+.our-company{
+    display: flex;
+    flex-direction: column;
+    margin: 0 6rem;
+}
+.our-company1{
+    margin-left: 2rem;
+}
+.company-info{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.company-links{
+    margin: .5rem 0;
+}
+/* ----------------------------------------- */
+
+@media (max-width: 1200px){
+    
+}
+@media (max-width: 1100px){
+    .feedbacks{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 992px){
+    nav, header{
+        flex-wrap: wrap;
+    }
+    .location{
+        margin-top: .8rem;
+        margin-bottom: .8rem;
+    }
+    .nav-links{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: .9rem;
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+    .boat-img{
+        margin: 0;
+    }
+    .about-us{   
+        margin-top: 2rem;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .luxury-yacht{
+        margin: .5rem 0;
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    .date, .price{
+        font-size: .8rem;
+        padding: 0.2rem;
+    }
+    .destination-name{
+        font-size: .9rem;
+    }
+    .form-section,.form1 ,.section6, .form-contents{
+        flex-wrap: wrap;
+    }
+    .form-section{
+        margin: 2rem 0;
+    }
+    .form-contents{
+        justify-content: center;
+    }
+    footer, .company-info{
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width: 927px){
+    .logo{
+        margin-right: 0;
+    }
+    
+}
+@media (max-width: 767px){
+    .icon-text{
+        font-size: .8rem;
+    }
+    .icon-subtext{
+        font-size: .7rem;
+    }
+    .nav-links{
+        font-size: .8rem;
+        margin: .5rem .8rem;
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+    .section1{
+        height: 90vh;
+    }
+    .ad-heading{
+        font-size: 2rem;
+    }
+    .ad-subtext{
+        width: 30rem;
+    }
+    .ad-subtext, .about-us-subtext, .luxury-yacht p, .assets p, label, select, .member-info, .feedback-text, .contact-us-txt, .learn-more-link, .water-boat-info p{
+        font-size: .8rem;
+    }
+    .section2{
+        padding: 3rem;
+    }
+    .section3{
+        padding-bottom: 2rem;
+    }
+    .welcome-txt, .book-yacht-head{
+        padding-bottom: 1.5rem;
+    }
+    .welcome-txt, .our-destination-head, .book-yacht-head, .our-team-head, .member-name, .customer-question{
+        font-size: 1.2rem;
+    }
+    .about-us-text{
+        font-size: .9rem;
+    }
+    .read-more-btn, .learn-more-btn{
+        font-size: .6rem;
+        padding: .5rem 1.5rem;
+    }
+    .luxury-yacht h3{
+        font-size: 1rem;
+    }
+    .luxury-yacht{
+        width: 18rem;
+    }
+    .assets h1{
+        font-size: 1.8rem;
+    }
+    .dest-image-1{
+        flex-wrap: wrap;
+    }
+    .destinations-images{
+        margin: 1rem 0;
+    }
+    .section5{
+        padding: 2rem 0;
+    }
+    .form-image{
+        width: 30rem;
+        height: 20rem;
+    }
+    .form-divs{
+        margin: 1.5rem 0;
+    }
+    .section6{
+        padding: 3.5rem;
+        padding-bottom: 2rem;
+    }
+    textarea{
+        height: 5rem;
+    }
+    .members{
+        flex-wrap: wrap;
+        margin: 2rem 0;
+    }
+    .social-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+    .our-team-head{
+        padding-bottom: 1rem;
+    }
+    .headshot1, .headshot2, .headshot3, .headshot4{
+        height: 16rem;
+    }
+    .customer-question{
+        padding-bottom: 1rem;
+    }
+    .feedback-text{
+        padding: 1rem 1.5rem;
+        width: 16rem;
+    }
+    .cust-name{
+        font-size: .8rem;
+    }
+    .cust-prof{
+        font-size: .7rem;
+    }
+    .cust-image{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .contact-us-head{
+        font-size: 1.5rem;
+    }
+    .our-company{
+        margin: 0 1.5rem;
+    }
+    .company-contact{
+        font-size: .9rem;
+    }
+    
+}
+@media (max-width: 576px){
+    .nav-links{
+        font-size: .7rem;
+    }
+    .icon-text{
+        font-size: .6rem;
+    }
+    .our-destination-head{
+        padding-bottom: 1rem;
+    }
+    .icon-subtext{
+        font-size: .5rem;
+    }
+    .phone-header, .location2, .email-header{
+        margin-left: 0;
+    }
+    header{
+        padding-bottom: 0;
+        padding: 0rem;
+    }
+    nav{
+        padding: 0;
+    }
+    .ad-heading{
+        font-size: 1.6rem;
+    }
+    .section1{
+        height: 80vh;
+    }
+    .ad-subtext{
+        font-size: .7rem;
+        width: 22rem;
+    }
+    .read-more-btn, .learn-more-btn{
+        font-size: .6rem;
+        padding: .5rem 1.5rem;
+    }
+    .boat-img{
+        width: 25rem;
+        height: 15rem;
+    }
+    .welcome-txt, .book-yacht-head{
+        padding-bottom: 1rem;
+    }
+    .about-us{
+        margin-top: 1rem;
+    }
+    .assets h1{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .section4{
+        padding: 2rem 0;
+    }
+    .boat-image-1{
+        height: 10rem;
+        width: 16rem;
+    }
+    .images{
+        width: 16rem;
+    }
+    .section3{
+        padding-bottom: 1rem;
+    }
+    .form-image{
+        width: 26rem;
+        height: 16rem;
+    }
+    .form-divs{
+        margin: 1rem 0;
+    }
+    .inputs, .inputs2, select{
+        padding: .2rem ;
+    }
+    .section8{
+        padding: 2.5rem 0;
+    }
+    .section9{
+        padding: 3rem;
+    }
+    .company-links{
+        margin: .2rem 0;
+    }
+    footer{
+        padding: 2rem 0;
+    }
+    .water-boat-info p{
+        line-height: 18px;
+    }
+   
+
+    
+}
+@media (max-width: 408px){
+    nav{
+        justify-content: center;
+    }
+    .ad-subtext{
+        width: 18rem;
+    }
+    .boat-img{
+        width: 18rem;
+        height: 12rem;
+    }
+    .about-us, .luxury-yacht{
+        line-height: 18px;
+    }
+    .about-us-text, .luxury-yacht h3{
+        font-size: .8rem;
+    }
+    .about-us-subtext{
+        font-size: .6rem;
+    }
+    .welcome-txt, .our-destination-head, .book-yacht-head, .our-team-head, .member-name, .customer-question, .contact-us-head{
+        font-size: 1rem;
+    }
+    .read-more-btn, .learn-more-btn{
+        font-size: .5rem;
+        padding: .5rem 1rem;
+    } 
+    .luxury-yacht p, .assets p, .date, .destination-name, label, select, .member-profession, .feedback-text, .contact-us-txt,  .water-boat-info p, .learn-more-link{
+        font-size: .6rem;
+    }
+    .destination-name, .company-links{
+        font-size: .7rem;
+    }
+    
+    .destination-info{
+        padding: .5rem 1rem;    
+    }
+    .price{
+        font-size: .7rem;
+        height: 1.5rem;
+    }
+    .luxury-yacht{
+        width: 15rem;
+    }
+    .assets h1{
+        font-size: 1.2rem;
+    }
+    .form-input{
+        margin: .5rem 0 0;
+    }
+    .form-image{
+        width: 18rem;
+        height: 13rem;
+    }
+    .section6{
+        padding: 2.2rem;
+        padding-bottom: 1rem;
+    }
+    textarea{
+        height: 4rem;
+    }
+    .headshot1, .headshot2, .headshot3, .headshot4{
+        height: 14rem;
+    }
+    .team-members-info{
+        margin: .5rem;
+    }
+    .feedback-text{
+        width: 14rem;
+        padding: .5rem 1rem; 
+    }
+    .cust-image{
+        width: 2rem;
+        height: 2rem;
+    }
+    .cust-name{
+        font-size: .7rem;
+    }
+    .cust-prof{
+        font-size: .6rem;
+    }
+    .feedbacks{
+        margin: 1.5rem 0;
+    }
+    .our-company{
+        margin: .8rem;
+    }
+    .company-contact{
+        font-size: .8rem;
+    }
+    .company-links{
+        margin: .4rem 0;
+    }
+    .form1{
+        /* width: 100vw; */
+    
+    }
+    .form-section{
+        margin: 1rem .3rem;
+    }
+    .inputs, .inputs2{
+        width: 85vw;
+    }
+
+}
