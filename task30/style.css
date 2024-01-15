@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    flex-direction: column;
+}
+main, nav, .social-accs, footer{
+    display: flex;
+}
+nav{
+    justify-content: flex-end;
+    padding-right: 25px;
+    background-color: rgb(255, 87, 87);
+}
+.nav-common{
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro{
+    background-color: rgb(43, 43, 43);
+    padding-top: 5px;
+}
+.nikhil-intro{
+    margin-top: 95px;
+    margin-bottom: 0px;
+}
+.nikhil-profession{
+    color: rgb(255, 87, 87);
+    margin: 0px;
+}
+.nikhil-profession, .question{
+    font-weight: 100;
+    font-style: italic;
+}
+.nikhil-profession, .question, .social-btns{
+    font-family: 'Poppins', sans-serif;
+}
+.ad , .intro{
+    text-align: center;
+    height: 350px;
+}
+.ad{
+    background-color: rgba(45, 48, 59, 0.94);
+}
+.heading{
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+.heading, .nikhil-intro{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.question{
+    margin-top: 0px;
+    font-size: 10px;
+}
+.social-accs{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social-btns{
+    color: white;
+    font-size: 18px;
+    margin: 0px 10px;
+    text-decoration: none;
+    display: inline-block;  
+}
+footer{
+    border-top: 2px solid rgb(255, 87, 87);
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.common1{
+    color: white;
+} 
+.creator-txt, .fake-folio-txt{
+    margin: 10px;
+    font-weight: 200;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;    
+    margin: 18px 0px;
+}
+    @media (max-width: 1200px){
+        .nikhil-intro, .heading{
+            font-size: 2em;
+        }
+        .nikhil-profession{
+            font-size: 1.17em;
+        }
+        .creator-txt, .fake-folio-txt{
+            font-size: 10px;
+        }
+        .social-btns{
+            font-size: 18px;
+        }
+        .nav-common{
+            font-size: 15px;
+        }
+        .intro, .ad{
+            height: 350px;
+        }
+    }
+    @media (max-width: 992px ){
+        .nikhil-intro, .heading{
+            font-size: 1.8em;
+        }
+        .nikhil-profession{
+            font-size: 1em;
+        }
+        .creator-txt, .fake-folio-txt{
+            font-size: 9px;
+        }
+        .social-btns{
+            font-size: 16px;
+        }
+        .nav-common{
+            font-size: 13px;
+        }
+        .intro{
+            height: 325px;
+        }
+    }
+    @media (max-width: 767px){
+        .nikhil-intro, .heading{
+            font-size: 1.6em;
+        }
+        .nikhil-profession{
+            font-size: .8em;
+        }
+        .creator-txt, .fake-folio-txt{
+            font-size: 8px;
+        }
+        .social-btns{
+            font-size: 14px;
+        }
+        .nav-common{
+            font-size: 11px;
+        }
+        .intro{
+            height: 325px;
+        }
+    }
+    @media (max-width: 576px){
+        .nikhil-intro, .heading{
+            font-size: 1.4em;
+        }
+        .nikhil-profession{
+            font-size: .6em;
+        }
+        .creator-txt, .fake-folio-txt, .question{
+            font-size: 7px;
+        }
+        .social-btns{
+            font-size: 12px;
+        }
+        .nav-common{
+            font-size: 9px;
+        }
+        .intro{
+            height: 300px;
+        }
+    }
