@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="main">
+        <section class="section1">
+            <h3 class="checkout-head">Checkout</h3>
+
+                <div class="products">
+                    <div class="product-info">
+                        <div class="product-price">
+                        <h3 class="prod-name product1">Product 1</h3>
+                        <h3 class="prod-name product1">$200</h3>
+                    </div>
+                    <p class="prod-txt">Lorem ipsum dolor, sit amet.</p>
+                    </div>
+                    <div class="product-info">
+                    <div class="product-price">
+                        <h3 class="prod-name">Product 2</h3>
+                        <h3 class="prod-name">$120</h3>
+                    </div>
+                    <p class="prod-txt">Lorem ipsum dolor, sit amet.</p>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h3>Total</h3>
+                    <h3>$320</h3>
+                </div>
+        </section>
+
+        <section class="section2">
+            
+            <form action="" class="creditcardForm">
+                <h3 class="credit-card-details-head">Credit Card Details</h3>
+
+                <div class="creditCardDetails">
+
+                    <!-- <div class="card-no-holder"> -->
+                        <div class="card-inputs">
+                            <label for="cardholder">CARD HOLDER</label>
+                            <input type="text" id="cardholder" class="input-dec" placeholder="Card Holder">
+                        </div>
+                    
+                <div class="card-inputs expiration">
+                    <label for="month">EXPIRATION DATE</label>
+                    <div class="date-input">
+                        <input type="text" id="month" class="input-dec"
+                        placeholder="MM"> 
+                        <span>/</span>
+                        <input type="text" id="year" class="input-dec"
+                        placeholder="YY"> 
+                    </div>
+                    </div>
+                <!-- </div> -->
+                        
+                <!-- <div class="cvc-expiration-date"> -->
+                    <div class="card-inputs">
+                        <label for="cardno">CARD NUMBER</label>
+                        <input type="text" id="cardno" class="input-dec" placeholder="Card Number">
+                    </div>
+                    
+                    <div class="card-inputs cvc">
+                        <label for="cvc-no">CVC</label> 
+                        <input type="text" id="cvc-no" class="input-dec" placeholder="CVC">
+                    </div>
+                </div>
+            <!-- </div> -->
+            
+                <button type="submit" class="payment-btn">Proceed</button>
+            </form>
+
+        </section>
+    </section>
+</body>
+</html>

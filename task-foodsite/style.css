@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+.main{
+    padding: 80px;
+    font-family: 'Poppins', sans-serif;    
+}
+.grp1, .grp2, .grp3, .grp4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sub-main, .pizza-txt{
+    display: flex;
+}
+.sub-main{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cheese-pizza-img{
+    width: 180px;
+    height: 180px;
+}
+.pizza-txt{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h4{
+    margin-bottom: 0px;
+}
+p{
+    font-size: .6rem;
+}
+/* .sub-main2{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}*/ 
+
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 992px){
+    .grp4{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 716px){
+    .grp3{
+        flex-direction: column;
+    }
+    .grp2{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px){
+    h1{
+        font-size: .8rem;
+    }
+    p{
+        font-size: .6rem;
+    }
+}
+@media (max-width: 535px){
+    h1{
+        font-size: .7rem;
+    }
+    p{
+        font-size: .5rem;
+    }
+    .grp4{
+        flex-direction: column;
+    }
+    .grp3 .pizza-txt{
+        order: 1;
+    } 
+    .grp4 .pizza-txt{
+        order: 2;
+    }      
+}

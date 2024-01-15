@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.product-price{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-txt{
+    margin: 0;
+    color: grey;
+}
+.prod-name{
+    margin-bottom: .2rem;
+}
+.checkout-head{
+    
+}
+.product1{
+    margin-top: .2rem;
+}
+.products{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438) ;
+    border-top: 1px solid rgba(128, 128, 128, 0.438) ;
+}
+.section1{
+    padding: 2rem 2.5rem;
+    background-color: #F7FBFF;
+}
+.section2{
+    background-color: white;
+    padding: 2rem 2.5rem;
+}
+.credit-card-details-head{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438) ;
+    margin-bottom: 0;
+}
+.main{
+    width: 50vw;
+    margin: auto;
+    border-top: 2px solid #007EFA;
+    box-shadow: 1px 1px 5px rgba(54, 54, 54, 0.671);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(44, 44, 44);
+}
+.cvc-expiration-date, .card-no-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.creditCardDetails{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+.card-inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+#month, #year{
+    width: 4.8rem;
+}
+#cardholder{
+    width: 21rem;
+}
+#cardno{
+    width: 24rem;
+}
+#cvc-no{
+    width: 9rem;
+}
+#month, #year, #cardno, #cvc-no, #cardholder{
+    height: 2rem;
+    font-size: 1.2rem;
+    padding-left: .5rem;
+    border: 1px solid rgba(172, 172, 172, 0.267);
+}
+.expiration, .cvc{
+    /* margin-left: 1rem; */
+}
+label{
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    color: rgb(95, 94, 94);
+    font-family: 'Mulish', sans-serif;
+}
+span{
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 .5rem;
+}
+.payment-btn{
+    width: 100%;
+    background-color: #007EFA;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.date-input{
+    display: flex;
+    align-items: center;
+}
+.creditcardForm{
+    /* display: flex;
+    flex-direction: column; */
+}
+@media (max-width: 1200px){
+    .card-no-holder, .cvc-expiration-date{
+        flex-wrap: wrap;
+    }
+
+    
+}
+@media (max-width: 992px){
+    h3{
+        font-size: 1rem;
+    }
+    label, p{
+        font-size: .6rem;
+    }
+    #month, #year, #cardno, #cvc-no, #cardholder, .payment-btn{
+        font-size: .8rem;
+    }
+    #cardholder, #cardno{
+        width: 100%;
+    }
+    #month, #year{
+        width: 3rem;
+    }
+    .creditCardDetails{
+        justify-content: space-between;
+    }
+    
+}
+@media (max-width: 767px){
+    .section2, .section1{
+        padding: 1.5rem;
+    }
+    #month, #year, #cardno, #cvc-no, #cardholder, .payment-btn{
+        height: 1.5rem;
+    }
+}
+@media (max-width: 576px){
+    h3{
+        font-size: .8rem;
+    }
+    label, p{
+        font-size: .5rem;
+    }
+    #month, #year, #cardno, #cvc-no, #cardholder, .payment-btn{
+        font-size: .6rem;
+        height: 1rem;
+    }   
+    .payment-btn{
+        height: 1.5rem;
+    }
+    .section1, .section2{
+        padding: 1rem;
+    } 
+    .card-inputs{
+        margin: .5rem 0;
+    } 
+    span{
+        font-size: .8rem;
+    }
+    label{
+        margin-bottom: .5rem;
+    } 
+}
+@media (max-width: 400px){
+    h3{
+        font-size: .7rem;
+    }
+    .payment-btn{
+        margin-top: 1rem;
+    }
+    #month, #year{
+        width: 2rem;
+    }
+    #cardholder, #cardno{
+        width: 8rem;
+    }
+    #cvc-no{
+        width: 5rem;
+    }
+    .section2, .section1{
+        padding: .8rem;
+    }
+
+}
