@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+main{
+    font-family: 'Raleway', sans-serif;
+}
+.choose-plans-heading {
+    text-align: center;
+}
+.choose-plans-heading p{
+    font-size: 1.6rem;
+    margin-top: 0;
+}
+.choose-plans-heading h1{
+    color: #34c75c;
+    margin-bottom: .5rem;
+}
+.plans{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.basic-plan-1{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 1.5rem; 
+    width: 22rem; 
+    text-align: center;
+    margin: .5rem;
+}
+.basic-plan-2{
+    border: 1px solid grey;
+    padding: 3rem 1.5rem;
+    width: 22rem; 
+    text-align: center;
+    margin: .5rem;
+    color: white;
+    background-color: #1a1a4b;
+}
+.plan-info2 ul{
+    list-style: none;
+    padding: 0;
+}
+.plan-name-head2, .month2{
+    color: white;
+}
+.plan-name-head, .plan-name-head2{
+    margin-top: 0;
+}
+.basic-plan{
+    text-align: center;
+}
+.price2{
+    color: #34c75c;
+}
+.plan-info ul{
+    list-style: none;
+    padding: 0;
+}
+.plan-name-head, .month{
+    color: #1a1a4b;
+}
+.price{
+    color: orange;
+}
+ul li{
+    padding: 10px;
+    border-top: 1px solid #34c75c ;
+}
+.get-plan-btn{
+    background-color: #34c75c;
+    color: white;
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px){
+    .choose-plans-heading h1{
+        font-size: 2.1rem;
+    }
+    .choose-plans-heading p{
+        font-size: 1.6rem;
+    }   
+}
+@media (max-width: 992px){
+    .choose-plans-heading h1{
+        font-size: 1.8rem;
+    }
+    .choose-plans-heading p{
+        font-size: 1.4rem;
+    }
+    .plan-name-head, .plan-name-head2, .price, .price2, .month, .month2{
+        font-size: 1.5rem;
+    }
+    ul{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 870px){
+    .plans{
+        flex-wrap: wrap;
+    }
+    .basic-plan-2{
+        order: 3;
+    }
+}
+@media (max-width: 835px){
+    .basic-plan-1, .basic-plan-2{
+        width: 20rem;
+    }
+}
+@media (max-width: 771px){
+    .basic-plan-1{
+        order: 3;
+    }
+}
+@media (max-width: 767px){
+    .choose-plans-heading h1{
+        font-size: 1.6rem;
+    }
+    .choose-plans-heading p{
+        font-size: 1.2rem;
+    }
+    .plan-name-head, .plan-name-head2, .price, .price2, .month, .month2{
+        font-size: 1.2rem;
+    }
+    ul{
+        font-size: .8rem;
+    }
+    .get-plan-btn{
+        width: 7.5rem;
+        font-size: .7rem;
+    }
+}
+@media (max-width: 576px){
+    .choose-plans-heading h1{
+        font-size: 1.4rem;
+    }
+    .choose-plans-heading p{
+        font-size: 1rem;
+    }
+    .plan-name-head, .plan-name-head2, .price, .price2, .month, .month2{
+        font-size: 1rem;
+    }
+    ul{
+        font-size: .7rem;
+    }
+    .basic-plan-1, .basic-plan-2{
+        width: 16rem;
+    }
+    .get-plan-btn{
+        width: 7rem;
+        font-size: .6rem;
+    }
+}
