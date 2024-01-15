@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-image: url('./city-bg-img.webp');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+main::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+main::after{
+    background-color: rgba(0, 116, 224, 0.795);
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.username-face-img{
+    width: 7rem;
+    height: 7rem;
+    z-index: 1;
+}
+.username-face-img img{
+    border-radius: 50%; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.username-Name{
+    z-index: 1;
+    color: white;
+}
+.username-Name h2{
+    font-size: 1.5rem;
+}
+.credentials{
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#uname, #pass, #btn-login{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 17rem;;
+    height: 2.5rem;
+    margin: .3rem;
+    border: none;
+    border-radius: 30px;
+}
+#uname, #pass{
+    padding-left: 2.5rem;
+}
+#btn-login{
+    margin: 1rem auto;
+    width: 19.5rem;
+    background-color: rgb(42, 42, 42);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.credentials a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media (max-width: 1200px){
+    .username-Name h2{
+        font-size: 1.5rem;
+    }
+    .credentials a, #uname, #btn-login, #pass{
+        font-size: 1rem;
+    }
+    #uname, #pass{
+        width: 17rem;
+    }
+    #btn-login{
+        width: 19.5rem;
+    }
+}
+@media (max-width: 992px){
+    .username-Name h2{
+        font-size: 1.2rem;
+    }
+    .credentials a, #uname, #btn-login, #pass{
+        font-size: .9rem;
+    }
+    #uname, #pass{
+        width: 16rem;
+    }
+    #btn-login{
+        width: 18.5rem;
+    }
+}
+@media (max-width: 767px){
+    .username-Name h2{
+        font-size: 1rem;
+    }
+    .credentials a, #uname, #btn-login, #pass{
+        font-size: .8rem;
+    }
+    #uname, #pass{
+        width: 15rem;
+    }
+    #btn-login{
+        width: 17.5rem;
+    }
+}
+@media (max-width: 576px){
+    .username-Name h2{
+        font-size: 1rem;
+    }
+    .credentials a, #uname, #btn-login, #pass{
+        font-size: .7rem;
+    }
+    #uname, #pass{
+        width: 15rem;
+    }
+    #btn-login{
+        width: 17.5rem;
+    }
+}
