@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main{
+    padding: 50px ;
+    margin: auto;
+    width: 950px;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.first{
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    width: 300px;
+    display: inline-block;
+    border: 2px solid rgb(230, 42, 42);
+    margin-right: 10px;
+}
+
+#red{
+    background-color: rgb(230, 42, 42);
+}
+.second{
+    text-align: center;
+    /* background-color: rgb(224, 224, 224); */
+    width: 300px;
+    display: inline-block;
+    border: 2px solid rgb(201, 144, 0);
+    margin-right: 10px;
+}
+#yellow{
+    background-color: rgb(201, 144, 0);
+}
+
+.third{
+    text-align: center;
+    /* background-color: rgb(221, 221, 221); */
+    width: 300px;
+    display: inline-block;
+    border: 2px solid rgb(9, 126, 19);
+}
+
+#green{
+    background-color: rgb(9, 126, 19);
+}
+.grey{
+    background-color: grey;
+    margin: 0px;
+    padding: 15px;
+    color: rgb(44, 44, 44);
+}
+ul{
+    padding-left: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    padding: 3px 0px;
+    font-size: 12px;
+}
+.list{
+    background-color: white;
+    color: rgb(71, 71, 71);
+}
+.btn{
+    padding: 5px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif ;
+    cursor: pointer;
+}
+h3{
+    margin: 0px;
+    padding: 15px 0px;
+}
+.heading{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+#btn-red{
+    background-color: rgb(230, 42, 42);
+}
+#btn-yellow{
+    background-color: rgb(201, 144, 0);
+}
+#btn-green{
+    background-color: rgb(9, 126, 19);
+}

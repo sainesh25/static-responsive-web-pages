@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+.main{
+    margin: 20px;
+}
+.fullred, .fullwhite, .menu5, .menu6 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.size{
+    width: fit-content;
+    height: 45px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.red, .bor, .black{
+    border:none;
+}
+.red, .white, .lred, .black{
+    margin: 0px 2px;
+}
+.red{
+    background-color: red;
+}
+.white{
+    border-radius: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
+.bor{
+    background-color: white;
+    margin: 5px;
+    border-bottom: 1px solid black;    
+}
+.menu4, .menu5, .menu6{
+    margin: 10px 0px;
+    padding-left: 20px;
+    background-color: rgb(255, 88, 88);
+}
+.no-border{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 15px 15px;
+    font-size: 14px;
+}
+.lred{
+    background-color: rgb(255, 88, 88);
+    border: 1px solid black;   
+}
+.black{
+    background-color: black;
+    color: white;
+}

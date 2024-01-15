@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+.common{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+}
+.common2{
+    border: 2px solid rgb(43, 43, 43);
+    background-color: white;
+    color: rgb(43, 43, 43);
+}
+.common3{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+#one, #two{
+    border-radius: 55px;
+}
+#three, #four{
+    border-radius: 5px;
+}
+#seven, #eight{
+    height: 60px;
+}
