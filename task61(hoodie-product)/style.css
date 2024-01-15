@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body{
+    background-color: rgba(75, 189, 255, 0.301);
+}
+main{
+    width: 18rem;
+    margin: auto;
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    box-shadow: 2px 7px 5px #80808073;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: .8rem;
+    margin: 0;
+}
+.hoodie-img{
+    height: 15rem;
+    width: 100%;
+    background-image: url('./hoodie-img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hoodie-img:hover:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(75, 228, 255, 0.486);
+    top: 0;
+    left: 0;    
+}
+/* .product-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.product-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 189, 255);
+    top: 0;
+    left: 0;
+} */
+.view-details-btn{
+    width: 10rem;
+    visibility: hidden;
+}
+.view-details-btn::before{
+    visibility: visible;
+}
+
+
+.product-head{
+    font-weight: 400;
+}
+.product-info{
+    padding: .8rem 1.5rem 1.8rem;
+}
+.product-head, .price, .sizes-head, .colors-head  {
+    margin-bottom: 0;
+}
+.sizes-head, .colors-head{
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    font-weight: 900;
+}
+.product-type, .sizes, .colors-btn{
+    margin-top: .3rem;
+}
+.colors-btn{
+    width: 1rem;
+    height: 1rem;
+    margin: 0.3rem .1rem;
+    border-radius: 50%;
+    border: none;
+}
+.colors{
+    display: flex;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: rgb(75, 189, 255);
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
+.product-name-price{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    color: rgb(0, 179, 250);
+}
