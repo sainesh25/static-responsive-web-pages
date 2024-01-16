@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=PT+Serif:ital@1&display=swap');
+main,body{
+    padding: 0;
+    margin: 0;
+}
+.heading-info{
+    color: white;
+    background-image: url('./image-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100;
+    flex-wrap: wrap;
+    height: 30rem;
+}
+.common, .heading-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-info h1{
+    font-size: 6rem;
+    margin: 0;
+}
+.heading-info h5{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+.heading-info h2{
+    margin-top: 0;
+}
+.heading-info h1, h2, button{
+    font-family: 'Montserrat', sans-serif;
+}
+.heading-info button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    height: 2.5rem;
+    width: 9.5rem;
+    border: 2px solid white ;
+    border-radius: 1.875rem;
+    cursor: pointer;
+}
+.heading-info button:hover{
+    background-color: white;
+    color: rgb(42, 42, 42);
+}
+.church-infos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.community-info{
+    background-color: rgb(40, 40, 40);
+}
+.church-mission-info{
+    background-color: brown;
+}
+.join-group-info{
+    background-color: rgb(255, 106, 106);
+}
+.church-beliefs-info{
+    background-color: rgb(255 155 44);
+}
+.common{
+    height: 16.7rem;
+    color: white;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif; 
+    width: 300px;
+}
+.learn-more{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.txt-heading{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.common h6{
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+@media (max-width: 1200px){
+    .heading-info h1{
+        font-size: 6rem;
+    }
+    .heading-info button{
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+    .common a{
+        font-size: 1rem;
+    }
+    .txt-heading{
+        font-size: 1.9rem;
+    }
+    .common h6{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 992px){
+    .heading-info h1{
+        font-size: 5rem;
+    }
+    .heading-info h2{
+        font-size: 1.5rem ;
+    }
+    .heading-info button{
+        width: 9rem;
+        height: 2rem;
+        font-size: .8rem;
+    }
+    .common a{
+        font-size: .9rem;
+    }
+    .txt-heading{
+        font-size: 1.8rem;
+    }
+    .common h6{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 767px){
+    .heading-info h1{
+        font-size: 4rem;
+    }
+    .heading-info h2{
+        font-size: 1.4rem ;
+    }
+    .heading-info button{
+        width: 8.5rem;
+        height: 2rem;
+        font-size: .7rem;
+    }
+    .common a{
+        font-size: .8rem;
+    }
+    .txt-heading{
+        font-size: 1.7rem;
+    }
+    .common h6{
+        font-size: .8rem;
+    }
+}
+@media (max-width: 576px){
+    .heading-info h1{
+        font-size: 3.5rem;
+    }
+    .heading-info h2{
+        font-size: 1.3rem ;
+    }
+    .heading-info button{
+        width: 8rem;
+        height: 1.5rem;
+        font-size: .7rem;
+    }
+    .common a{
+        font-size: .7rem;
+    }
+    .txt-heading{
+        font-size: 1.6rem;
+    }
+    .common h6{
+        font-size: .5rem;
+    }
+}
